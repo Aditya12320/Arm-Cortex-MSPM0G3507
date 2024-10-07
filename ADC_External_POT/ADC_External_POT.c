@@ -33,15 +33,14 @@ int main(void)
 
     while (1) {
         // Start ADC conversion for the channel
-        DL_ADC12_startConversion(ADC12_0_INST);  // Start ADC0 conversion (Potentiometer)
+        DL_ADC12_startConversion(ADC12_0_INST);
 
-        // Wait until the ADC conversion is done
-        while (!gCheckADC) {
-            __WFE();  // Wait for event (conversion complete)
+        while (false == gCheckADC) {
+            __WFE();
         }
 
-        // Get ADC result from the channel
         adcResult = DL_ADC12_getMemResult(ADC12_0_INST, DL_ADC12_MEM_IDX_0);
+
         voltage = (adcResult * ADC12_EXTERNAL_REF_VOLTAGE) / (1 << ADC12_BIT_RESOLUTION);  // Convert ADC result to voltage
 
         // Print the ADC value and corresponding voltage for the potentiometer
@@ -49,7 +48,8 @@ int main(void)
 
         // Stop ADC conversion for the channel
         DL_ADC12_stopConversion(ADC12_0_INST);
-        gCheckADC = false;  // Reset the flag for the next conversion
+        gCheckADC = false;
+        DL_ADC12_enableConversions(ADC12_0_INST);
     }
 }
 

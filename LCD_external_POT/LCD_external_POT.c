@@ -6,8 +6,6 @@
 // Define ADC settings
 #define ADC12_BIT_RESOLUTION          (12)
 #define ADC12_EXTERNAL_REF_VOLTAGE    (5.0)
-#define ADC12_MONITOR_VOLTAGE         (ADC12_EXTERNAL_REF_VOLTAGE / 2)
-#define ADC12_MONITOR_VALUE           ((1 << ADC12_BIT_RESOLUTION) * (ADC12_MONITOR_VOLTAGE / (ADC12_EXTERNAL_REF_VOLTAGE)))
 
 // I2C LCD settings
 #define LCD_I2C_ADDRESS 0x27
@@ -17,7 +15,7 @@
 // Flag for ADC conversion completion
 volatile bool gCheckADC = false;
 
-// Function prototypes for I2C and LCD
+// Function prototypes
 void I2C_init(void);
 void LCD_init(void);
 void LCD_sendCommand(uint8_t cmd);
@@ -27,14 +25,12 @@ void LCD_setCursor(uint8_t row, uint8_t col);
 void delay_ms(uint32_t ms);
 void LCD_sendByte(uint8_t byte, uint8_t mode);
 void I2C_writeByte(uint8_t data);
+void read_ADC_and_display_voltage(void);
+void float_to_string(float num, char* buffer);
 
 // Main function
 int main(void)
 {
-    uint16_t adcResult;
-    float voltage;
-    char voltageStr[16];  // Buffer to store voltage as a string
-
     SYSCFG_DL_init();     // Initialize system configuration
 
     // Initialize I2C and LCD
@@ -46,34 +42,54 @@ int main(void)
 
     // Main loop
     while (1) {
-        // Start ADC conversion
-        DL_ADC12_startConversion(ADC12_0_INST);
-
-        // Wait for ADC conversion to complete
-        while (!gCheckADC) {
-            __WFE();  // Wait for event (conversion complete)
-        }
-
-        // Get ADC result
-        adcResult = DL_ADC12_getMemResult(ADC12_0_INST, DL_ADC12_MEM_IDX_0);
-        voltage = (adcResult * ADC12_EXTERNAL_REF_VOLTAGE) / (1 << ADC12_BIT_RESOLUTION);  // Convert ADC result to voltage
-
-        // Convert the voltage value to a string
-        sprintf(voltageStr, "Voltage: %.2fV", voltage);
-
-        // Clear and update LCD display
-        LCD_setCursor(1, 1);            // Set cursor to line 1
-        LCD_sendString(voltageStr);      // Display voltage value
-
-        // Stop ADC conversion
-        DL_ADC12_stopConversion(ADC12_0_INST);
-
-        // Reset ADC flag for the next conversion
-        gCheckADC = false;
-
-        // Delay to control refresh rate
-        delay_ms(500);  // Delay for half a second before updating again
+        read_ADC_and_display_voltage();
+        delay_ms(50);  // Delay to control refresh rate
     }
+}
+
+// ADC reading and display function
+void read_ADC_and_display_voltage(void) {
+    uint16_t adcResult;
+    float voltage;
+    char voltageStr[16];  // Buffer to store voltage as a string
+
+    // Reset the ADC flag for the next conversion
+    gCheckADC = false;
+
+    // Start ADC conversion
+    DL_ADC12_startConversion(ADC12_0_INST);
+
+    while (false == gCheckADC) {
+        __WFE();
+    }
+
+    // Get ADC result
+    adcResult = DL_ADC12_getMemResult(ADC12_0_INST, DL_ADC12_MEM_IDX_0);
+
+    // Convert ADC result to voltage
+    voltage = (adcResult * ADC12_EXTERNAL_REF_VOLTAGE) / (1 << ADC12_BIT_RESOLUTION);
+
+    // Convert the voltage value to a string manually (replace sprintf)
+    float_to_string(voltage, voltageStr);
+
+    // Clear and update LCD display
+    LCD_setCursor(1, 1);            // Set cursor to line 1
+    LCD_sendString(voltageStr);      // Display voltage value
+
+    // Stop ADC conversion
+    DL_ADC12_stopConversion(ADC12_0_INST);
+    gCheckADC = false;
+    DL_ADC12_enableConversions(ADC12_0_INST);
+
+    // Debugging: Print raw ADC result and calculated voltage
+    printf("Raw ADC Result: %u, Voltage: %.2fV\n", adcResult, voltage);
+}
+
+// Function to convert float to string (manual implementation)
+void float_to_string(float num, char* buffer) {
+    int whole = (int) num;
+    int frac = (int)((num - whole) * 100);  // Get two decimal places
+    sprintf(buffer, "Voltage: %d.%02dV", whole, frac);
 }
 
 // ADC interrupt handler
@@ -81,6 +97,8 @@ void ADC12_0_INST_IRQHandler(void)
 {
     if (DL_ADC12_getPendingInterrupt(ADC12_0_INST) == DL_ADC12_IIDX_MEM0_RESULT_LOADED) {
         gCheckADC = true;
+        // Clear the interrupt flag after processing
+//        DL_ADC12_clearPendingInterrupt(ADC12_0_INST);
     }
 }
 

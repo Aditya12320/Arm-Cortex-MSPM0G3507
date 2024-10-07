@@ -18,12 +18,20 @@ const I2C     = scripting.addModule("/ti/driverlib/I2C", {}, false);
 const I2C1    = I2C.addInstance();
 const MATHACL = scripting.addModule("/ti/driverlib/MATHACL");
 const SYSCTL  = scripting.addModule("/ti/driverlib/SYSCTL");
+const VREF    = scripting.addModule("/ti/driverlib/VREF");
 
 /**
  * Write custom configuration values to the imported modules.
  */
-ADC121.$name               = "ADC12_0";
-ADC121.adcPin0Config.$name = "ti_driverlib_gpio_GPIOPinGeneric2";
+ADC121.$name                      = "ADC12_0";
+ADC121.sampClkDiv                 = "DL_ADC12_CLOCK_DIVIDE_8";
+ADC121.adcMem0chansel             = "DL_ADC12_INPUT_CHAN_2";
+ADC121.adcMem0vref                = "VREF";
+ADC121.sampleTime0                = "125 us";
+ADC121.enabledInterrupts          = ["DL_ADC12_INTERRUPT_MEM0_RESULT_LOADED"];
+ADC121.peripheral.$assign         = "ADC0";
+ADC121.peripheral.adcPin2.$assign = "PA25";
+ADC121.adcPin2Config.$name        = "ti_driverlib_gpio_GPIOPinGeneric2";
 
 
 GPIO1.$name                          = "GPIO_LEDS";
@@ -34,32 +42,35 @@ GPIO1.associatedPins[0].pin.$assign  = "PB26";
 
 I2C1.basicControllerBusSpeed           = 400000;
 I2C1.advControllerTXFIFOTRIG           = "BYTES_1";
-I2C1.basicTargetAddress                = 0x48;
 I2C1.$name                             = "I2C";
 I2C1.basicEnableTarget                 = true;
 I2C1.advAnalogGlitchFilter             = "DISABLED";
+I2C1.basicTargetAddress                = 0x4E;
 I2C1.peripheral.$assign                = "I2C1";
 I2C1.peripheral.sdaPin.$assign         = "PB3";
 I2C1.peripheral.sclPin.$assign         = "PB2";
-I2C1.sdaPinConfig.$name                = "ti_driverlib_gpio_GPIOPinGeneric0";
 I2C1.sdaPinConfig.hideOutputInversion  = scripting.forceWrite(false);
 I2C1.sdaPinConfig.onlyInternalResistor = scripting.forceWrite(false);
 I2C1.sdaPinConfig.passedPeripheralType = scripting.forceWrite("Digital");
-I2C1.sclPinConfig.$name                = "ti_driverlib_gpio_GPIOPinGeneric1";
+I2C1.sdaPinConfig.$name                = "ti_driverlib_gpio_GPIOPinGeneric0";
 I2C1.sclPinConfig.hideOutputInversion  = scripting.forceWrite(false);
 I2C1.sclPinConfig.onlyInternalResistor = scripting.forceWrite(false);
 I2C1.sclPinConfig.passedPeripheralType = scripting.forceWrite("Digital");
+I2C1.sclPinConfig.$name                = "ti_driverlib_gpio_GPIOPinGeneric1";
 
 SYSCTL.forceDefaultClkConfig = true;
+SYSCTL.clockTreeEn           = true;
+
+VREF.profile                = "EXT_2_0_V";
+VREF.vrefPosPinConfig.$name = "ti_driverlib_gpio_GPIOPinGeneric3";
 
 /**
  * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
  * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
  * re-solve from scratch.
  */
-ADC121.peripheral.$suggestSolution         = "ADC0";
-ADC121.peripheral.adcPin0.$suggestSolution = "PA27";
-Board.peripheral.$suggestSolution          = "DEBUGSS";
-Board.peripheral.swclkPin.$suggestSolution = "PA20";
-Board.peripheral.swdioPin.$suggestSolution = "PA19";
-SYSCTL.peripheral.$suggestSolution         = "SYSCTL";
+Board.peripheral.$suggestSolution           = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution  = "PA20";
+Board.peripheral.swdioPin.$suggestSolution  = "PA19";
+VREF.peripheral.$suggestSolution            = "VREF";
+VREF.peripheral.vrefPosPin.$suggestSolution = "PA23";
