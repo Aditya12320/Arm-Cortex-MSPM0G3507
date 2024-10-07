@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Display with I2C LCD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Temperature Display with I2C LCD Using MSPM0G3507</h1>
+    </header>
+
+    <section>
+        <h2>Project Overview</h2>
+        <p>This project demonstrates how to use the MSPM0G3507 microcontroller to read temperature data using the onboard ADC and display it on a 16x2 I2C LCD. The temperature is shown in both Celsius and Fahrenheit.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Reads temperature data from a sensor using ADC.</li>
+            <li>Displays the temperature on a 16x2 I2C LCD.</li>
+            <li>Real-time temperature updates in both Celsius and Fahrenheit.</li>
+        </ul>
+
+        <h2>Hardware Requirements</h2>
+        <ul>
+            <li>MSPM0G3507 LaunchPad (or compatible)</li>
+            <li>16x2 I2C LCD (Address: 0x27 or 0x3F)</li>
+            <li>Temperature Sensor (internal or external)</li>
+            <li>Connecting wires</li>
+        </ul>
+
+        <h2>Wiring Diagram</h2>
+        <p>Use the following connections between MSPM0G3507 and the I2C LCD:</p>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>MSPM0G3507 Pins</th>
+                    <th>I2C LCD Pins</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SDA</td>
+                    <td>SDA</td>
+                </tr>
+                <tr>
+                    <td>SCL</td>
+                    <td>SCL</td>
+                </tr>
+                <tr>
+                    <td>VCC</td>
+                    <td>VCC</td>
+                </tr>
+                <tr>
+                    <td>GND</td>
+                    <td>GND</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Code Overview</h2>
+        <p>The project consists of the following key functions:</p>
+        <pre>
+LCD_init(); // Initializes the I2C LCD in 4-bit mode
+temperature(); // Reads temperature from ADC and displays on the LCD
+I2C_writeByte(); // Sends data to the I2C LCD
+        </pre>
+
+        <h2>How to Run</h2>
+        <ol>
+            <li>Connect the I2C LCD and temperature sensor as shown in the wiring diagram.</li>
+            <li>Use Code Composer Studio to compile and upload the code to the MSPM0G3507 LaunchPad.</li>
+            <li>The LCD will start displaying the temperature in both Celsius and Fahrenheit.</li>
+        </ol>
+    </section>
+</body>
+</html>

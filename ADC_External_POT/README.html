@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potenetiometer ADC Measurement Code Explanation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Potenetiometer ADC Measurement Code Explanation</h1>
+
+    <h2>Overview</h2>
+    <p>This code reads the analog voltage from a potentiometer connected to the ADC channel of the MSPM0G3507 microcontroller.</p>
+
+    <h2>Key Functions</h2>
+    <ul>
+        <li>
+            <strong>SYSCFG_DL_init()</strong>: Initializes the system configuration for the microcontroller.
+        </li>
+        <li>
+            <strong>DL_ADC12_startConversion()</strong>: Starts the ADC conversion for the specified channel.
+        </li>
+        <li>
+            <strong>DL_ADC12_getMemResult()</strong>: Retrieves the conversion result from memory.
+        </li>
+        <li>
+            <strong>DL_ADC12_stopConversion()</strong>: Stops the ADC conversion process.
+        </li>
+        <li>
+            <strong>NVIC_EnableIRQ()</strong>: Enables the interrupt for ADC conversion completion.
+        </li>
+    </ul>
+
+    <h2>ADC Interrupt Handler</h2>
+    <pre>
+void ADC12_0_INST_IRQHandler(void)
+{
+    // Check if the interrupt is for memory 0
+    if (DL_ADC12_getPendingInterrupt(ADC12_0_INST) == DL_ADC12_IIDX_MEM0_RESULT_LOADED) {
+        gCheckADC = true;  // Set flag for ADC0 conversion complete
+    }
+}
+    </pre>
+    <p>This function is triggered when the ADC conversion is complete. It sets the flag <code>gCheckADC</code> to indicate that the conversion result is ready to be processed.</p>
+
+    <h2>Usage</h2>
+    <p>To use this code, connect a potentiometer to the ADC input, set the appropriate reference voltage, and upload the code to the microcontroller. Monitor the output through a serial terminal.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License.</p>
+</body>
+</html>

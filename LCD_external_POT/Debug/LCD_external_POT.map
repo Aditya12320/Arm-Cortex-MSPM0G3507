@@ -1,0 +1,1288 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+                              ./ti_msp_dl_config.o (DL_ADC12_setClockConfig)
+C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+                              ./ti_msp_dl_config.o (DL_Common_delayCycles)
+C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+                              ./ti_msp_dl_config.o (DL_I2C_setClockConfig)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+                              ./LCD_external_POT.o (__aeabi_dmul)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+                              ./LCD_external_POT.o (__aeabi_i2d)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                              ./LCD_external_POT.o (__aeabi_f2d)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+                              ./LCD_external_POT.o (__aeabi_d2f)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o) (__clzsi2)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                              ./startup_mspm0g350x_gcc.o (__libc_init_array)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+                              ./LCD_external_POT.o (sprintf)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o) (_svfprintf_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (_dtoa_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (_free_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o) (_impure_ptr)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (_localeconv_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (_malloc_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (memchr)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (memcpy)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o) (__malloc_lock)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (_Balloc)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (frexp)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o) (_sbrk_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (strlen)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (strncpy)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__ssprint_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o) (_calloc_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o) (__global_locale)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o) (memmove)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o) (memset)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o) (_realloc_r)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o) (errno)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o) (strcmp)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o) (__ascii_wctomb)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o) (_ctype_)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o) (_sbrk)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_idiv)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (__aeabi_dadd)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (__aeabi_ddiv)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_dsub)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_dcmpun)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o) (__aeabi_d2iz)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+                              C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o) (__aeabi_ui2d)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o) (__clzdi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+errno               0x4               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text.I2C_init
+                0x00000000       0x18 ./LCD_external_POT.o
+ .text.LCD_sendString
+                0x00000000       0x18 ./LCD_external_POT.o
+ .text.LCD_setCursor
+                0x00000000       0x20 ./LCD_external_POT.o
+ .text.delay_ms
+                0x00000000       0x2c ./LCD_external_POT.o
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.WWDT1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.CANFD0
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.GPIOB  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.SPI1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.DAC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TRNG   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.RTC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.AES    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMA0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMA1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.UART3  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.UART2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.COMP1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.COMP2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.ADC1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.ADC1_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.MATHACL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMG12
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMG6  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMG7  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.TIMG8  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .text.DL_ADC12_getClockConfig
+                0x00000000       0x58 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.WWDT1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.CANFD0
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.GPIOB  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.SPI1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.DAC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TRNG   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.RTC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.AES    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMA0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMA1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.UART3  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.UART2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.COMP1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.COMP2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.ADC1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.ADC1_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.MATHACL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMG12
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMG6  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMG7  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.TIMG8  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.WWDT1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.CANFD0
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.GPIOB  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.SPI1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.DAC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TRNG   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.RTC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.AES    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMA0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMA1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.UART3  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.UART2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.COMP1  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.COMP2  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.ADC1   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.ADC1_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.MATHACL
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMG12
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMG6  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMG7  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.TIMG8  0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_isControllerTXFIFOEmpty
+                0x00000000       0x30 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_isControllerRXFIFOEmpty
+                0x00000000       0x24 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_isTargetTXFIFOFull
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_isTargetTXFIFOEmpty
+                0x00000000       0x30 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_isTargetRXFIFOEmpty
+                0x00000000       0x24 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_stopFlushControllerTXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_startFlushControllerTXFIFO
+                0x00000000       0x24 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_stopFlushControllerRXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_startFlushControllerRXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_getTargetStatus
+                0x00000000       0x1c C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_receiveTargetData
+                0x00000000       0x1a C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_transmitTargetData
+                0x00000000       0x24 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_stopFlushTargetTXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_startFlushTargetTXFIFO
+                0x00000000       0x24 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_stopFlushTargetRXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_startFlushTargetRXFIFO
+                0x00000000       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_getClockConfig
+                0x00000000       0x40 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_flushControllerTXFIFO
+                0x00000000       0x38 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_flushControllerRXFIFO
+                0x00000000       0x38 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_fillTargetTXFIFO
+                0x00000000       0x6e C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_flushTargetTXFIFO
+                0x00000000       0x38 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_flushTargetRXFIFO
+                0x00000000       0x38 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_transmitTargetDataBlocking
+                0x00000000       0x38 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_transmitTargetDataCheck
+                0x00000000       0x48 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_receiveTargetDataBlocking
+                0x00000000       0x2e C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_receiveTargetDataCheck
+                0x00000000       0x46 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text._sprintf_r
+                0x00000000       0x38 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .text.__localeconv_l
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x00000000        0x8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .text.__s2b    0x00000000       0x98 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text.__ulp    0x00000000       0x48 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text.__b2d    0x00000000       0xc8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text.__ratio  0x00000000       0x68 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x34 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text.__copybits
+                0x00000000       0x40 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text.__any_on
+                0x00000000       0x50 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .rodata._svfiprintf_r.str1.4
+                0x00000000       0x2f C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .text._svfiprintf_r
+                0x00000000      0xb84 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r
+                0x00000000      0x16c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .rodata.blanks.7324
+                0x00000000       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.7325
+                0x00000000       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .text._setlocale_r
+                0x00000000       0x44 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x00000000       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x18 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text._mbtowc_r
+                0x00000000       0x18 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .text.cleanup_glue
+                0x00000000       0x1c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x94 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .text._wctomb_r
+                0x00000000       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00020000         xr
+SRAM             0x20200000         0x00008000         xrw
+BCR_CONFIG       0x41c00000         0x00000080         r
+BSL_CONFIG       0x41c00100         0x00000080         r
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./LCD_external_POT.o
+LOAD ./ti_msp_dl_config.o
+LOAD ./startup_mspm0g350x_gcc.o
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000080                _Min_Stack_Size = 0x80
+                0x00000000                PROVIDE (_intvecs_base_address = DEFINED (_intvecs_base_address)?_intvecs_base_address:0x0)
+
+.intvecs        0x00000000       0xc0
+ *(.intvecs)
+ .intvecs       0x00000000       0xc0 ./startup_mspm0g350x_gcc.o
+                0x00000000                interruptVectors
+                0x20200000                PROVIDE (_vtable_base_address = DEFINED (_vtable_base_address)?_vtable_base_address:0x20200000)
+
+.vtable
+ *(.vtable)
+
+.text           0x000000c0     0x7030
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x000000c0        0x0 ./LCD_external_POT.o
+ .text          0x000000c0        0x0 ./ti_msp_dl_config.o
+ .text          0x000000c0        0x0 ./startup_mspm0g350x_gcc.o
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text          0x000000c0      0x4d8 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+                0x000000c0                __aeabi_dmul
+ .text          0x00000598       0x60 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+                0x00000598                __aeabi_i2d
+ .text          0x000005f8       0x90 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                0x000005f8                __aeabi_f2d
+ .text          0x00000688      0x110 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+                0x00000688                __aeabi_d2f
+ .text          0x00000798       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x00000798                __clzsi2
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+ .text          0x000007d4        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .text          0x000007d4       0x88 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+                0x000007d4                strcmp
+ .text          0x0000085c        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+ .text          0x0000085c        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+ .text          0x0000085c        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ .text          0x0000085c      0x114 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x0000085c                __aeabi_uidiv
+                0x0000085c                __udivsi3
+                0x00000968                __aeabi_uidivmod
+ .text          0x00000970      0x1d4 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                0x00000970                __divsi3
+                0x00000970                __aeabi_idiv
+                0x00000b3c                __aeabi_idivmod
+ .text          0x00000b44        0x4 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x00000b44                __aeabi_idiv0
+                0x00000b44                __aeabi_ldiv0
+ .text          0x00000b48       0x7c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x00000b48                __aeabi_cdrcmple
+                0x00000b58                __aeabi_cdcmple
+                0x00000b58                __aeabi_cdcmpeq
+                0x00000b68                __aeabi_dcmpeq
+                0x00000b74                __aeabi_dcmplt
+                0x00000b88                __aeabi_dcmple
+                0x00000b9c                __aeabi_dcmpgt
+                0x00000bb0                __aeabi_dcmpge
+ .text          0x00000bc4       0x40 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x00000bc4                __aeabi_uldivmod
+ .text          0x00000c04      0x198 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00000c04                __udivmoddi4
+ .text          0x00000d9c      0x6d4 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                0x00000d9c                __aeabi_dadd
+ .text          0x00001470      0x5d0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+                0x00001470                __aeabi_ddiv
+ .text          0x00001a40       0x78 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                0x00001a40                __nedf2
+                0x00001a40                __eqdf2
+ .text          0x00001ab8       0xe4 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                0x00001ab8                __gedf2
+                0x00001ab8                __gtdf2
+ .text          0x00001b9c       0xe0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                0x00001b9c                __ledf2
+                0x00001b9c                __ltdf2
+ .text          0x00001c7c      0x724 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                0x00001c7c                __aeabi_dsub
+ .text          0x000023a0       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+                0x000023a0                __aeabi_dcmpun
+ .text          0x000023dc       0x6c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                0x000023dc                __aeabi_d2iz
+ .text          0x00002448       0x4c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+                0x00002448                __aeabi_ui2d
+ .text          0x00002494       0x18 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                0x00002494                __clzdi2
+                0x000024b0                . = ALIGN (0x8)
+ *fill*         0x000024ac        0x4 
+ *(.text.*)
+ .text.ADC0_IRQHandler
+                0x000024b0       0x1c ./LCD_external_POT.o
+                0x000024b0                ADC0_IRQHandler
+ .text.I2C_writeByte
+                0x000024cc       0x6c ./LCD_external_POT.o
+                0x000024cc                I2C_writeByte
+ .text.LCD_sendByte
+                0x00002538       0x60 ./LCD_external_POT.o
+                0x00002538                LCD_sendByte
+ .text.LCD_sendData
+                0x00002598       0x1c ./LCD_external_POT.o
+                0x00002598                LCD_sendData
+ .text.LCD_sendCommand
+                0x000025b4       0x58 ./LCD_external_POT.o
+                0x000025b4                LCD_sendCommand
+ .text.LCD_init
+                0x0000260c       0x68 ./LCD_external_POT.o
+                0x0000260c                LCD_init
+ .text.startup.main
+                0x00002674       0xe8 ./LCD_external_POT.o
+                0x00002674                main
+ .text.SYSCFG_DL_initPower
+                0x0000275c       0x54 ./ti_msp_dl_config.o
+                0x0000275c                SYSCFG_DL_initPower
+ .text.SYSCFG_DL_GPIO_init
+                0x000027b0       0x40 ./ti_msp_dl_config.o
+                0x000027b0                SYSCFG_DL_GPIO_init
+ .text.SYSCFG_DL_SYSCTL_init
+                0x000027f0       0x50 ./ti_msp_dl_config.o
+                0x000027f0                SYSCFG_DL_SYSCTL_init
+ .text.SYSCFG_DL_I2C_init
+                0x00002840       0x78 ./ti_msp_dl_config.o
+                0x00002840                SYSCFG_DL_I2C_init
+ .text.SYSCFG_DL_ADC12_0_init
+                0x000028b8       0x28 ./ti_msp_dl_config.o
+                0x000028b8                SYSCFG_DL_ADC12_0_init
+ .text.SYSCFG_DL_init
+                0x000028e0       0x18 ./ti_msp_dl_config.o
+                0x000028e0                SYSCFG_DL_init
+ .text.Default_Handler
+                0x000028f8        0x4 ./startup_mspm0g350x_gcc.o
+                0x000028f8                TIMG6_IRQHandler
+                0x000028f8                TIMG8_IRQHandler
+                0x000028f8                I2C0_IRQHandler
+                0x000028f8                HardFault_Handler
+                0x000028f8                SysTick_Handler
+                0x000028f8                PendSV_Handler
+                0x000028f8                NMI_Handler
+                0x000028f8                I2C1_IRQHandler
+                0x000028f8                UART1_IRQHandler
+                0x000028f8                TIMA1_IRQHandler
+                0x000028f8                UART0_IRQHandler
+                0x000028f8                SPI1_IRQHandler
+                0x000028f8                TIMG0_IRQHandler
+                0x000028f8                ADC1_IRQHandler
+                0x000028f8                GROUP1_IRQHandler
+                0x000028f8                RTC_IRQHandler
+                0x000028f8                GROUP0_IRQHandler
+                0x000028f8                UART2_IRQHandler
+                0x000028f8                Default_Handler
+                0x000028f8                SVC_Handler
+                0x000028f8                TIMG12_IRQHandler
+                0x000028f8                DAC0_IRQHandler
+                0x000028f8                TIMG7_IRQHandler
+                0x000028f8                SPI0_IRQHandler
+                0x000028f8                AES_IRQHandler
+                0x000028f8                DMA_IRQHandler
+                0x000028f8                TIMA0_IRQHandler
+                0x000028f8                UART3_IRQHandler
+                0x000028f8                CANFD0_IRQHandler
+ .text.Reset_Handler
+                0x000028fc       0x8c ./startup_mspm0g350x_gcc.o
+                0x000028fc                Reset_Handler
+ .text.initStub
+                0x00002988        0x4 ./startup_mspm0g350x_gcc.o
+                0x00002988                initStub
+                0x00002988                _init
+ .text.DL_Common_updateReg
+                0x0000298c       0x32 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ *fill*         0x000029be        0x2 
+ .text.DL_ADC12_setClockConfig
+                0x000029c0       0x5c C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+                0x000029c0                DL_ADC12_setClockConfig
+ .text.DL_Common_delayCycles
+                0x00002a1c       0x1c C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+                0x00002a1c                DL_Common_delayCycles
+ .text.DL_Common_updateReg
+                0x00002a38       0x32 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ *fill*         0x00002a6a        0x2 
+ .text.DL_I2C_isControllerTXFIFOFull
+                0x00002a6c       0x28 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .text.DL_I2C_transmitControllerData
+                0x00002a94       0x22 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ *fill*         0x00002ab6        0x2 
+ .text.DL_I2C_setClockConfig
+                0x00002ab8       0x3c C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+                0x00002ab8                DL_I2C_setClockConfig
+ .text.DL_I2C_fillControllerTXFIFO
+                0x00002af4       0x6e C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+                0x00002af4                DL_I2C_fillControllerTXFIFO
+ *fill*         0x00002b62        0x2 
+ .text.__libc_init_array
+                0x00002b64       0x44 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                0x00002b64                __libc_init_array
+ .text.sprintf  0x00002ba8       0x40 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+                0x00002ba8                sprintf
+ .text._svfprintf_r
+                0x00002be8     0x1c08 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+                0x00002be8                _svfprintf_r
+ .text.quorem   0x000047f0      0x148 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x00004938      0xfa0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+                0x00004938                _dtoa_r
+ .text._malloc_trim_r
+                0x000058d8       0x9c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+                0x000058d8                _malloc_trim_r
+ .text._free_r  0x00005974      0x1c4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+                0x00005974                _free_r
+ .text._localeconv_r
+                0x00005b38        0x8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+                0x00005b38                _localeconv_r
+ .text._malloc_r
+                0x00005b40      0x580 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x00005b40                _malloc_r
+ .text.memchr   0x000060c0       0x74 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+                0x000060c0                memchr
+ .text.memcpy   0x00006134       0xa4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+                0x00006134                memcpy
+ .text.__malloc_lock
+                0x000061d8       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+                0x000061d8                __malloc_lock
+ .text.__malloc_unlock
+                0x000061e8       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+                0x000061e8                __malloc_unlock
+ .text._Balloc  0x000061f8       0x50 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x000061f8                _Balloc
+ .text._Bfree   0x00006248       0x14 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00006248                _Bfree
+ .text.__multadd
+                0x0000625c       0x84 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x0000625c                __multadd
+ .text.__hi0bits
+                0x000062e0       0x38 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x000062e0                __hi0bits
+ .text.__lo0bits
+                0x00006318       0x5c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00006318                __lo0bits
+ .text.__i2b    0x00006374       0x14 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00006374                __i2b
+ .text.__multiply
+                0x00006388      0x18c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00006388                __multiply
+ .text.__pow5mult
+                0x00006514       0xc0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00006514                __pow5mult
+ .text.__lshift
+                0x000065d4       0xec C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x000065d4                __lshift
+ .text.__mcmp   0x000066c0       0x38 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x000066c0                __mcmp
+ .text.__mdiff  0x000066f8      0x154 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x000066f8                __mdiff
+ .text.__d2b    0x0000684c       0xbc C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x0000684c                __d2b
+ .text.frexp    0x00006908       0x64 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+                0x00006908                frexp
+ .text._sbrk_r  0x0000696c       0x24 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+                0x0000696c                _sbrk_r
+ .text.strlen   0x00006990       0x5c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x00006990                strlen
+ .text.strncpy  0x000069ec       0x6c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+                0x000069ec                strncpy
+ .text.__ssprint_r
+                0x00006a58      0x114 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+                0x00006a58                __ssprint_r
+ .text._calloc_r
+                0x00006b6c       0x5c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+                0x00006b6c                _calloc_r
+ .text.__retarget_lock_acquire_recursive
+                0x00006bc8        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+                0x00006bc8                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00006bcc        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+                0x00006bcc                __retarget_lock_release_recursive
+ .text.__ascii_mbtowc
+                0x00006bd0       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+                0x00006bd0                __ascii_mbtowc
+ .text.memmove  0x00006bfc       0xb8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+                0x00006bfc                memmove
+ .text.memset   0x00006cb4       0xa8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+                0x00006cb4                memset
+ .text._realloc_r
+                0x00006d5c      0x358 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+                0x00006d5c                _realloc_r
+ .text.__ascii_wctomb
+                0x000070b4       0x1c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+                0x000070b4                __ascii_wctomb
+ .text._sbrk    0x000070d0       0x1c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                0x000070d0                _sbrk
+                0x000070f0                . = ALIGN (0x8)
+ *fill*         0x000070ec        0x4 
+ *(.ctors)
+                0x000070f0                . = ALIGN (0x8)
+ *(.dtors)
+                0x000070f0                . = ALIGN (0x8)
+ *(.init)
+                0x000070f0                . = ALIGN (0x8)
+ *(.fini*)
+                0x000070f0                . = ALIGN (0x8)
+
+.glue_7         0x000070f0        0x0
+ .glue_7        0x000070f0        0x0 linker stubs
+
+.glue_7t        0x000070f0        0x0
+ .glue_7t       0x000070f0        0x0 linker stubs
+
+.vfp11_veneer   0x000070f0        0x0
+ .vfp11_veneer  0x000070f0        0x0 linker stubs
+
+.v4_bx          0x000070f0        0x0
+ .v4_bx         0x000070f0        0x0 linker stubs
+
+.iplt           0x000070f0        0x0
+ .iplt          0x000070f0        0x0 ./LCD_external_POT.o
+
+.ramfunc        0x20200000        0x0 load address 0x000070f0
+                0x000070f0                __ramfunct_load__ = LOADADDR (.ramfunc)
+                0x20200000                __ramfunct_start__ = .
+ *(.ramfunc)
+                0x20200000                . = ALIGN (0x8)
+                0x20200000                __ramfunct_end__ = .
+
+.rodata         0x000070f0      0x490
+ *(.rodata)
+ .rodata        0x000070f0       0x40 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .rodata        0x00007130       0x40 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+                0x00007170                . = ALIGN (0x8)
+ *(.rodata.*)
+ .rodata.main.str1.4
+                0x00007170        0xf ./LCD_external_POT.o
+ *fill*         0x0000717f        0x1 
+ .rodata.gADC12_0ClockConfig
+                0x00007180        0x8 ./ti_msp_dl_config.o
+ .rodata.gI2CClockConfig
+                0x00007188        0x2 ./ti_msp_dl_config.o
+ *fill*         0x0000718a        0x2 
+ .rodata._svfprintf_r.str1.4
+                0x0000718c       0x42 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ *fill*         0x000071ce        0x2 
+ .rodata._svfprintf_r
+                0x000071d0      0x16c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .rodata.blanks.7345
+                0x0000733c       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .rodata.zeroes.7346
+                0x0000734c       0x10 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .rodata._dtoa_r.str1.4
+                0x0000735c        0xd C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+                                 0x12 (size before relaxing)
+ *fill*         0x00007369        0x7 
+ .rodata.__mprec_bigtens
+                0x00007370       0x28 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00007370                __mprec_bigtens
+ .rodata.__mprec_tens
+                0x00007398       0xc8 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00007398                __mprec_tens
+ .rodata.p05.6115
+                0x00007460        0xc C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .rodata._setlocale_r.str1.4
+                0x0000746c        0xa C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+                                  0xd (size before relaxing)
+ *fill*         0x00007476        0x2 
+ .rodata.str1.4
+                0x00007478        0x2 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ *fill*         0x0000747a        0x2 
+ .rodata._ctype_
+                0x0000747c      0x101 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+                0x0000747c                _ctype_
+                0x00007580                . = ALIGN (0x8)
+ *fill*         0x0000757d        0x3 
+
+.preinit_array  0x00007580        0x0
+                0x00007580                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00007580                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00007580        0x0
+                0x00007580                . = ALIGN (0x8)
+                0x00007580                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x00007580                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00007580        0x0
+                0x00007580                . = ALIGN (0x8)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end = .)
+                0x00007580                . = ALIGN (0x8)
+
+.ARM.exidx      0x00007580        0x8
+                0x00007580                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00007580        0x8 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00007588                __exidx_end = .
+
+.ARM.extab      0x00007588        0x0
+                0x00007588                . = ALIGN (0x8)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00007588        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00007588                . = ALIGN (0x8)
+                0x00007588                __etext = .
+
+.rel.dyn        0x00007588        0x0
+ .rel.iplt      0x00007588        0x0 ./LCD_external_POT.o
+
+.data           0x20200000      0x9b0 load address 0x00007588
+                0x00007588                __data_load__ = LOADADDR (.data)
+                0x20200000                __data_start__ = .
+ *(.data)
+ .data          0x20200000        0x0 ./LCD_external_POT.o
+ .data          0x20200000        0x0 ./ti_msp_dl_config.o
+ .data          0x20200000        0x0 ./startup_mspm0g350x_gcc.o
+ .data          0x20200000        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .data          0x20200000        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .data          0x20200000        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+ .data          0x20200000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .data          0x20200000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ *(.data*)
+ .data._impure_ptr
+                0x20200000        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+                0x20200000                _impure_ptr
+ *fill*         0x20200004        0x4 
+ .data.impure_data
+                0x20200008      0x428 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .data.__malloc_av_
+                0x20200430      0x408 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x20200430                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x20200838        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x20200838                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x2020083c        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x2020083c                __malloc_trim_threshold
+ .data.__global_locale
+                0x20200840      0x16c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+                0x20200840                __global_locale
+                0x202009b0                . = ALIGN (0x8)
+ *fill*         0x202009ac        0x4 
+                0x202009b0                __data_end__ = .
+
+.igot.plt       0x202009b0        0x0 load address 0x00007f38
+ .igot.plt      0x202009b0        0x0 ./LCD_external_POT.o
+
+.bss            0x202009b0       0x68
+                0x202009b0                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x202009b0        0x0 ./LCD_external_POT.o
+ .bss           0x202009b0        0x0 ./ti_msp_dl_config.o
+ .bss           0x202009b0        0x0 ./startup_mspm0g350x_gcc.o
+ .bss           0x202009b0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .bss           0x202009b0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .bss           0x202009b0        0x0 C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+ .bss           0x202009b0        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .bss           0x202009b0        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ *(.bss.*)
+ .bss.gCheckADC
+                0x202009b0        0x1 ./LCD_external_POT.o
+                0x202009b0                gCheckADC
+ *fill*         0x202009b1        0x3 
+ .bss.__malloc_current_mallinfo
+                0x202009b4       0x28 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x202009b4                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x202009dc        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x202009dc                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x202009e0        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x202009e0                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x202009e4        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+                0x202009e4                __malloc_top_pad
+ .bss.heap_end.4144
+                0x202009e8        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x202009ec       0x21 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+                0x202009ec                __lock___atexit_recursive_mutex
+                0x202009f0                __lock___arc4random_mutex
+                0x202009f4                __lock___env_recursive_mutex
+                0x202009f8                __lock___sinit_recursive_mutex
+                0x202009fc                __lock___malloc_recursive_mutex
+                0x20200a00                __lock___at_quick_exit_mutex
+                0x20200a04                __lock___dd_hash_mutex
+                0x20200a08                __lock___tz_mutex
+                0x20200a0c                __lock___sfp_recursive_mutex
+ *fill*         0x20200a0d        0x3 
+ COMMON         0x20200a10        0x4 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+                0x20200a10                errno
+                0x20200a18                . = ALIGN (0x8)
+ *fill*         0x20200a14        0x4 
+                0x20200a18                __bss_end__ = .
+
+.noinit         0x20200a18        0x0
+ *(*.noinit*)
+                0x20200a18                . = ALIGN (0x8)
+
+.heap           0x20200a18        0x0
+                0x20200a18                __heap_start__ = .
+                0x20200a18                end = __heap_start__
+                0x20200a18                _end = end
+                0x20200a18                __end = end
+ *(.heap)
+                0x20200a18                __heap_end__ = .
+                0x20200a18                __HeapLimit = __heap_end__
+
+.stack          0x20200a18        0x0
+                0x20200a18                _stack = .
+ *(.stack)
+
+.BCRConfig
+ *(.BCRConfig)
+
+.BSLConfig
+ *(.BSLConfig)
+                0x20208000                __StackTop = (ORIGIN (REGION_STACK) + LENGTH (REGION_STACK))
+                [!provide]                PROVIDE (__stack = __StackTop)
+LOAD C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a
+LOAD c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+START GROUP
+LOAD c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+OUTPUT(LCD_external_POT.out elf32-littlearm)
+
+.debug_info     0x00000000     0xfb59
+ .debug_info    0x00000000     0x7a44 ./LCD_external_POT.o
+ .debug_info    0x00007a44     0x7f59 ./ti_msp_dl_config.o
+ .debug_info    0x0000f99d      0x1bc ./startup_mspm0g350x_gcc.o
+
+.debug_abbrev   0x00000000      0x90e
+ .debug_abbrev  0x00000000      0x476 ./LCD_external_POT.o
+ .debug_abbrev  0x00000476      0x3b1 ./ti_msp_dl_config.o
+ .debug_abbrev  0x00000827       0xe7 ./startup_mspm0g350x_gcc.o
+
+.debug_loc      0x00000000      0x163
+ .debug_loc     0x00000000      0x150 ./LCD_external_POT.o
+ .debug_loc     0x00000150       0x13 ./startup_mspm0g350x_gcc.o
+
+.debug_aranges  0x00000000       0xe8
+ .debug_aranges
+                0x00000000       0x70 ./LCD_external_POT.o
+ .debug_aranges
+                0x00000070       0x48 ./ti_msp_dl_config.o
+ .debug_aranges
+                0x000000b8       0x30 ./startup_mspm0g350x_gcc.o
+
+.debug_ranges   0x00000000      0x338
+ .debug_ranges  0x00000000      0x120 ./LCD_external_POT.o
+ .debug_ranges  0x00000120      0x1f8 ./ti_msp_dl_config.o
+ .debug_ranges  0x00000318       0x20 ./startup_mspm0g350x_gcc.o
+
+.debug_line     0x00000000     0x13f1
+ .debug_line    0x00000000      0x97b ./LCD_external_POT.o
+ .debug_line    0x0000097b      0x8ab ./ti_msp_dl_config.o
+ .debug_line    0x00001226      0x1cb ./startup_mspm0g350x_gcc.o
+
+.debug_str      0x00000000     0x3daf
+ .debug_str     0x00000000     0x2b54 ./LCD_external_POT.o
+                               0x2d05 (size before relaxing)
+ .debug_str     0x00002b54     0x111e ./ti_msp_dl_config.o
+                               0x36dc (size before relaxing)
+ .debug_str     0x00003c72      0x13d ./startup_mspm0g350x_gcc.o
+                                0x2d9 (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./LCD_external_POT.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000079       0x7a ./ti_msp_dl_config.o
+ .comment       0x00000079       0x7a ./startup_mspm0g350x_gcc.o
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2b ./LCD_external_POT.o
+ .ARM.attributes
+                0x0000002b       0x2b ./ti_msp_dl_config.o
+ .ARM.attributes
+                0x00000056       0x2b ./startup_mspm0g350x_gcc.o
+ .ARM.attributes
+                0x00000081       0x2b C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_adc12.o)
+ .ARM.attributes
+                0x000000ac       0x2b C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_common.o)
+ .ARM.attributes
+                0x000000d7       0x2b C:/ti/mspm0_sdk_2_02_00_05/source\ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a(dl_i2c.o)
+ .ARM.attributes
+                0x00000102       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x0000012e       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x0000015a       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .ARM.attributes
+                0x00000186       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+ .ARM.attributes
+                0x000001b2       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000001d0       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001fc       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x00000228       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x00000254       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x00000280       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000002ac       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002d8       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x00000304       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000330       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000035c       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000388       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000003b4       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000003e0       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+ .ARM.attributes
+                0x0000040c       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000438       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000464       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x00000490       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000004bc       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x000004e8       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x00000514       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000540       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000056c       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000598       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000005c4       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x000005f0       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000061c       0x1b C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000637       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000663       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000068f       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x000006bb       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000006d9       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000006f7       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000715       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000733       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000751       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000077d       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x000007a9       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x000007d5       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x00000801       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x0000082d       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000859       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000885       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+ .ARM.attributes
+                0x000008b1       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x000008dd       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000909       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+
+.debug_frame    0x00000000      0xde0
+ .debug_frame   0x00000000      0x124 ./LCD_external_POT.o
+ .debug_frame   0x00000124       0x94 ./ti_msp_dl_config.o
+ .debug_frame   0x000001b8       0x48 ./startup_mspm0g350x_gcc.o
+ .debug_frame   0x00000200       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(muldf3.o)
+ .debug_frame   0x0000023c       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatsidf.o)
+ .debug_frame   0x00000268       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00000294       0x30 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x000002c4       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ .debug_frame   0x000002f0       0x48 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sprintf.o)
+ .debug_frame   0x00000338       0x3c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000374       0x68 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x000003dc       0x54 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
+ .debug_frame   0x00000430       0x40 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-localeconv.o)
+ .debug_frame   0x00000470       0x3c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000004ac       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000004d8       0x34 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000050c       0x40 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000054c      0x258 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+ .debug_frame   0x000007a4       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-s_frexp.o)
+ .debug_frame   0x000007d0       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000007fc       0x28 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x00000824       0x30 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strncpy.o)
+ .debug_frame   0x00000854       0x68 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x000008bc       0x28 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-callocr.o)
+ .debug_frame   0x000008e4       0x54 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+ .debug_frame   0x00000938       0xb0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-lock.o)
+ .debug_frame   0x000009e8       0x40 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000a28       0x34 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000a5c       0x30 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000a8c       0x3c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00000ac8       0x48 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+ .debug_frame   0x00000b10       0x20 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00000b30       0x3c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00000b6c       0x20 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ .debug_frame   0x00000b8c       0x20 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000bac       0x20 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000bcc       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000c08       0x38 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .debug_frame   0x00000c40       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(divdf3.o)
+ .debug_frame   0x00000c7c       0x38 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_frame   0x00000cb4       0x38 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_frame   0x00000cec       0x38 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .debug_frame   0x00000d24       0x3c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_frame   0x00000d60       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(unorddf2.o)
+ .debug_frame   0x00000d8c       0x2c c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000db8       0x28 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(floatunsidf.o)

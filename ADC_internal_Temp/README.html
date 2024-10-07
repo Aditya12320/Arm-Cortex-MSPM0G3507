@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Measurement Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MSPM0G3507 Temperature Measurement Using IQMath Library</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Overview</h2>
+        <p>This project demonstrates how to measure temperature using the MSPM0G3507 microcontroller, an ADC module, and the IQMath library for precise mathematical operations. The temperature is displayed in both Celsius and Fahrenheit, printed to the console using <code>printf()</code>.</p>
+    </section>
+
+    <section>
+        <h2>Components</h2>
+        <ul>
+            <li>MSPM0G3507 Launchpad</li>
+            <li>Temperature sensor (internal/external)</li>
+            <li>Code Composer Studio or any compatible IDE</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Function Explanation</h2>
+        <h3>Function: <code>temperature()</code></h3>
+        <p>The <code>temperature()</code> function performs the following operations:</p>
+        <ul>
+            <li><strong>Initialization:</strong> Sets up the ADC and enables interrupts for temperature measurement.</li>
+            <li><strong>ADC Conversion:</strong> Starts the ADC conversion process and waits for the result to be available.</li>
+            <li><strong>Voltage Calculation:</strong> Converts the ADC result to a corresponding voltage value.</li>
+            <li><strong>Temperature Calculation:</strong> Utilizes calibration data to calculate the temperature in degrees Celsius and Fahrenheit.</li>
+            <li><strong>Console Output:</strong> Prints the calculated temperature values to the console for monitoring.</li>
+            <li><strong>Delay:</strong> Implements a delay to manage the frequency of temperature readings.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    &copy; 2024 Temperature Measurement Project - Powered by Texas Instruments MSPM0G3507
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MSPM0G3507 ADC to I2C LCD Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        pre {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        .code-section {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>MSPM0G3507 ADC to I2C LCD Display</h1>
+        <p>This project demonstrates how to use the MSPM0G3507 LaunchPad to read analog input using the ADC and display the results on an I2C-based 16x2 LCD screen. The code utilizes the Texas Instruments DriverLib for handling ADC and I2C communications.</p>
+
+        <h2>Features:</h2>
+        <ul>
+            <li>12-bit ADC resolution</li>
+            <li>I2C communication to LCD</li>
+            <li>Real-time display of voltage</li>
+        </ul>
+
+        <div class="code-section">
+            <h3>Sample Code:</h3>
+            <pre><code>#include "ti_msp_dl_config.h"
+#include <stdio.h>
+#include <stdint.h>
+#include "ti/driverlib/dl_i2c.h"
+
+// Define ADC settings
+#define ADC12_BIT_RESOLUTION          (12)
+#define ADC12_EXTERNAL_REF_VOLTAGE    (5.0)
+#define ADC12_MONITOR_VOLTAGE         (ADC12_EXTERNAL_REF_VOLTAGE / 2)
+#define ADC12_MONITOR_VALUE           ((1 << ADC12_BIT_RESOLUTION) * (ADC12_MONITOR_VOLTAGE / (ADC12_EXTERNAL_REF_VOLTAGE)))
+
+// I2C LCD settings
+#define LCD_I2C_ADDRESS 0x27
+#define LCD_LINE_1 0x80
+#define LCD_LINE_2 0xC0
+
+// Flag for ADC conversion completion
+volatile bool gCheckADC = false;
+
+// Function prototypes for I2C and LCD
+void I2C_init(void);
+void LCD_init(void);
+void LCD_sendCommand(uint8_t cmd);
+void LCD_sendData(uint8_t data);
+void LCD_sendString(char *str);
+void LCD_setCursor(uint8_t row, uint8_t col);
+void delay_ms(uint32_t ms);
+void LCD_sendByte(uint8_t byte, uint8_t mode);
+void I2C_writeByte(uint8_t data);
+            </code></pre>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 MSPM0G3507 ADC to LCD Project. All rights reserved.
+    </footer>
+</body>
+</html>

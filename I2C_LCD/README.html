@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I2C LCD Interface with MSPM0G3507</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f8f8;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        pre {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I2C LCD Interface with MSPM0G3507</h1>
+        <p>This project demonstrates interfacing a 20x4 I2C LCD display with the Texas Instruments MSPM0G3507 microcontroller using I2C communication. The LCD is controlled using the DL I2C driver provided in the <code>ti_msp_dl_config.h</code> library.</p>
+        
+        <h2>Features</h2>
+        <ul>
+            <li>Initializes the I2C module and the LCD.</li>
+            <li>Displays text on the LCD at specified rows and columns.</li>
+            <li>Supports custom delays and character positioning on the display.</li>
+        </ul>
+        
+        <h2>Components Used</h2>
+        <ul>
+            <li><b>MSPM0G3507 Launchpad Development Kit</b> - A powerful ARM Cortex-M0+ microcontroller from Texas Instruments.</li>
+            <li><b>I2C LCD Module (20x4)</b> - A common 20x4 character LCD module with an I2C interface.</li>
+            <li><b>TI Driver Library (ti/driverlib/dl_i2c)</b> - For enabling and managing I2C communication.</li>
+        </ul>
+
+        <h2>Prerequisites</h2>
+        <ul>
+            <li><b>MSPM0G3507 Development Environment</b>: Set up the environment, including Code Composer Studio (CCS) or your preferred IDE.</li>
+            <li><b>Hardware</b>:
+                <ul>
+                    <li>MSPM0G3507 Launchpad</li>
+                    <li>20x4 I2C LCD module</li>
+                    <li>Jumper wires for connections</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h2>Wiring</h2>
+        <p>Below are the updated pin connections for interfacing the LCD with the MSPM0G3507 using I2C:</p>
+        
+        <table>
+            <tr>
+                <th>LCD Pin</th>
+                <th>MSPM0G3507 Pin</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>SDA (I2C Data)</td>
+                <td>PA3</td>
+                <td>I2C Data (SDA)</td>
+            </tr>
+            <tr>
+                <td>SCL (I2C Clock)</td>
+                <td>PA2</td>
+                <td>I2C Clock (SCL)</td>
+            </tr>
+            <tr>
+                <td>VCC</td>
+                <td>3.3V</td>
+                <td>Power Supply</td>
+            </tr>
+            <tr>
+                <td>GND</td>
+                <td>GND</td>
+                <td>Ground</td>
+            </tr>
+        </table>
+
+        <h2>How It Works</h2>
+        <p>The code initializes the I2C interface and sends the necessary commands to set up the LCD in 4-bit mode. Text is displayed on the LCD by setting the cursor to a specific row and column and sending strings to be shown on the screen.</p>
+        
+        <h3>Functions</h3>
+        <ul>
+            <li><code>I2C_init()</code>: Initializes the I2C interface with the MSPM0G3507.</li>
+            <li><code>LCD_init()</code>: Sends commands to initialize the LCD in 4-bit mode.</li>
+            <li><code>LCD_setCursor(row, col)</code>: Sets the cursor to a specific row and column.</li>
+            <li><code>LCD_sendString()</code>: Sends a string of characters to be displayed on the LCD.</li>
+            <li><code>delay_ms(ms)</code>: Custom millisecond delay function.</li>
+        </ul>
+
+        <h2>Example</h2>
+        <p>In the <code>main</code> function, the text "Hello" is displayed on the first line of the LCD, and "LCD IS working!" is displayed on the second line:</p>
+
+        <pre>
+/* Set cursor to row 1, column 1 and display "Hello" */
+LCD_setCursor(1, 1);
+LCD_sendString("Hello");
+
+/* Set cursor to row 2, column 1 and display "LCD IS Working!" */
+LCD_setCursor(2, 1);
+LCD_sendString("LCD is Working!");
+        </pre>
+        
+    </div>
+</body>
+</html>
