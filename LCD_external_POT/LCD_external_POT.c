@@ -97,8 +97,6 @@ void ADC12_0_INST_IRQHandler(void)
 {
     if (DL_ADC12_getPendingInterrupt(ADC12_0_INST) == DL_ADC12_IIDX_MEM0_RESULT_LOADED) {
         gCheckADC = true;
-        // Clear the interrupt flag after processing
-//        DL_ADC12_clearPendingInterrupt(ADC12_0_INST);
     }
 }
 
@@ -116,81 +114,109 @@ void LCD_init(void)
     LCD_sendCommand(0x32);  // Switch to 4-bit mode
     LCD_sendCommand(0x28);  // Function set: 4-bit, 2 lines
     LCD_sendCommand(0x0C);  // Display ON, cursor OFF
-    LCD_sendCommand(0x06);  // Entry mode set: Increment cursor
+    LCD_sendCommand(0x06);  // Entry mode set
     LCD_sendCommand(0x01);  // Clear display
     delay_ms(2);
 }
 
-// Send command to LCD
+// Function to send a command to the LCD
 void LCD_sendCommand(uint8_t cmd)
 {
-    uint8_t upper_nibble = cmd & 0xF0;
-    uint8_t lower_nibble = (cmd << 4) & 0xF0;
+    uint8_t upper_nibble = cmd & 0xF0;            // High nibble
+    uint8_t lower_nibble = (cmd << 4) & 0xF0;     // Low nibble
 
+    /* Send high nibble */
     LCD_sendByte(upper_nibble, 0);
-    delay_ms(2);
+    delay_ms(2);   // Additional delay
+
+    /* Send low nibble */
     LCD_sendByte(lower_nibble, 0);
-    delay_ms(2);
+    delay_ms(2);   // Additional delay
 }
 
-// Send data to LCD
+// Function to send data to the LCD
 void LCD_sendData(uint8_t data)
 {
-    uint8_t upper_nibble = data & 0xF0;
-    uint8_t lower_nibble = (data << 4) & 0xF0;
+    uint8_t upper_nibble = data & 0xF0;           // High nibble
+    uint8_t lower_nibble = (data << 4) & 0xF0;    // Low nibble
 
+    /* Send high nibble */
     LCD_sendByte(upper_nibble, 1);
+
+    /* Send low nibble */
     LCD_sendByte(lower_nibble, 1);
 }
 
-// Send byte to LCD with mode (command/data)
+// Function to send a byte to the LCD with control bits
 void LCD_sendByte(uint8_t byte, uint8_t mode)
 {
-    uint8_t data = byte | (mode ? 0x01 : 0x00);  // RS bit for command/data
-    data |= 0x08;  // Enable backlight
+    uint8_t data;
 
-    I2C_writeByte(data | 0x04);  // Set EN high
+    /* Mode: 0 = command, 1 = data */
+    data = byte | (mode ? 0x01 : 0x00); // RS bit
+    data |= 0x08;                       // Enable backlight
+
+    /* Send byte with Enable bit high */
+    I2C_writeByte(data | 0x04);         // En=1
     delay_ms(1);
-    I2C_writeByte(data & ~0x04);  // Set EN low
+    /* Send byte with Enable bit low */
+    I2C_writeByte(data & ~0x04);        // En=0
     delay_ms(1);
 }
 
-// Set cursor to specific row and column
+// Function to write a byte to the I2C bus
+void I2C_writeByte(uint8_t data)
+{
+    uint8_t txData[1];
+    txData[0] = data;
+
+    /* Set the target address (7-bit unshifted address) */
+    DL_I2C_setTargetAddress(I2C_INST, LCD_I2C_ADDRESS); // Updated function name
+
+    /* Fill the TX FIFO with the data */
+    DL_I2C_fillControllerTXFIFO(I2C_INST, txData, 1);
+
+    /* Start the I2C transfer with correct direction */
+    DL_I2C_startControllerTransfer(I2C_INST, LCD_I2C_ADDRESS, DL_I2C_CONTROLLER_DIRECTION_TX, 1); // Changed direction constant to TX
+
+    /* Wait for transfer to complete */
+    while (DL_I2C_getControllerStatus(I2C_INST) & DL_I2C_CONTROLLER_STATUS_BUSY) {
+        // Wait for the transfer to complete
+    }
+}
+
+// Function to set the cursor to a specific row and column
 void LCD_setCursor(uint8_t row, uint8_t col)
 {
     uint8_t address;
+
+    /* Calculate the DDRAM address based on the row and column */
     switch (row)
     {
-        case 1: address = LCD_LINE_1 + (col - 1); break;
-        case 2: address = LCD_LINE_2 + (col - 1); break;
-        default: address = LCD_LINE_1; break;
+        case 1:
+            address = LCD_LINE_1 + (col - 1);
+            break;
+        case 2:
+            address = LCD_LINE_2 + (col - 1);
+            break;
+        default:
+            address = LCD_LINE_1;
+            break;
     }
+
+    /* Send the command to set the DDRAM address */
     LCD_sendCommand(address);
 }
 
-// Send string to LCD
+// Function to send a string to the LCD
 void LCD_sendString(char *str)
 {
     while (*str) {
-        LCD_sendData(*str++);
+        LCD_sendData(*str++);           // Send each character of the string
     }
 }
 
-// Write byte to I2C bus
-void I2C_writeByte(uint8_t data)
-{
-    uint8_t txData[1] = { data };
-
-    DL_I2C_setTargetAddress(I2C_INST, LCD_I2C_ADDRESS);
-    DL_I2C_fillControllerTXFIFO(I2C_INST, txData, 1);
-    DL_I2C_startControllerTransfer(I2C_INST, LCD_I2C_ADDRESS, DL_I2C_CONTROLLER_DIRECTION_TX, 1);
-
-    while (DL_I2C_getControllerStatus(I2C_INST) & DL_I2C_CONTROLLER_STATUS_BUSY) {
-        // Wait for transfer to complete
-    }
-}
-
-// Delay function
+// Function to create a millisecond delay
 void delay_ms(uint32_t ms)
 {
     volatile uint32_t i;
